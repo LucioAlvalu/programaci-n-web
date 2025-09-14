@@ -6,7 +6,7 @@
     <meta name="author " content="Luciano Alvarado Luna">
     <meta name="description" content="En esta página vamos a observar las etiquetas principales de HTML">
     <meta name="keywords" content="html,etiqueta,atributo, valor, encabezado">
-    <!--Chinga tu madre-->
+    <!--amo mi carrera-->
     <title>Fundamentos HTML</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
     <p>Esto es <strong>importante</strong> y esto <b>no </b></p>
     <!--La etiqueta em es más importante semántocamente, i solo pone en cursiva pero sin el peso semántico -->
     <p>Esta es mi primera pagina web<i>Los fundamentos:</i><em>en HTML.</em></p>
-    <p>Esta es mi 1ra<sup>ra</sup> página web</p>
+    <p>Esta es mi 1<sup>ra</sup> página web</p>
     <p>Formula del aguaH<sub>2</sub>O</p>
     <p>Antes<del> $5485</del> ahora $250,000,000</p>
     <!--La siguiente etiqueta mark, a diferencia de las anteriores, tiene peso semántico-->
