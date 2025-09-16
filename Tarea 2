@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <meta name="author"content="Alvarado luna luciano">
+    <title>Documento</title>
+</head>
+<body>
+<!--cita corta-->
+<!--se le agregan comillas y tiene un peso semantico, en el segundo caso no-->
+<p> como un sabio dijo:<q>yo solo sé que no sé nada</q>-un sabio dijo</p>
+<p>como dijo un sabio: "yo solo se que no se nada"-un sabio dijo</p>
+<!--citas largas-->
+<p>como un sabio dijo</p>
+<!--blockquote tiene un peso semantico y otorga una sangria-->
+<blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quo quidem in dicta, facilis, accusantium enim ipsam nesciunt ullam, odit totam molestias omnis. Eveniet eaque consequatur, sed nam ex saepe</blockquote>
+<p>esto se dijo en 1999</p>
+<!--Estas son etiquetas para dar saltos de line<br> No necesutan un cierre-->
+<p>esta es la primera linea<br>esta es la segunda linea</p>
+<!--Etiquetas que permiten la facilitación de código en la página web-->
+<!--Visualizar código en una sola línea-->
+<p>cuando nosotros implementemos<code>print("Hola mundo")</code></p>
+<!--codigos más extensos en varias lineas o en forma de bloque-->
+<p>este programa suma dos números en python</p>
+<pre>
+    #suma de dos numeros
+    a=1
+    b=2
+    print (a+b)
+</pre>
+<!--como poner los caracteres reservados de html<>-->
+<P>Esta parte muestra un Hola Mundo en lo que es html</P>
+<pre>
+    &lt;body&gt;
+    $lt;h1&gt;Hola Mundo&lt;/h1&gt;
+    &lt;/body&gt;
+</pre>
+<!--Elementos a nivel de bloque -->
+<!--Significa que ocupa toda la pantalla, un elemento se pone debajo de otro-->
+<span style="background-color: cyan;">este es un elemento en linea</span>
+<span>Este es otro span</span>
+<P>Este texto es un color <span style="color:rgb(225,0,51)"> rojo</span></P>
+</body>
+</html>
