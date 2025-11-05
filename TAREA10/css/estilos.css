@@ -1,0 +1,105 @@
+#encabezado{
+    color: rgb(240, 158, 6);
+    background-color: black;
+    height: 80px;
+    /*el relleno se aplica entre el espacio entre el contenido de un elemento
+    y su borde*/
+    /*se aplican las propiedades en el sentido horario: top, rihgt, bottom, y left*/
+    padding: 30px 20px 25px 10px;
+    /*margin es el espacio del borde de un elemento con los demás elementod HTML*/
+    margin: 10PX 30PX 15PX;
+    /*El borde es el contenido visual de alrededor de nuestro relleno y contenido
+    de un elemento valores posibles para border-style:border;
+    (solid, dotted, dashed, double, groove, ridge, insert, outset, hidden y none)*/
+    border: 60px ridge rgb(177, 5, 5);
+    border-bottom-style: outset;
+    border-radius: 40%;
+    /*Se puede utilizar para crear efectos de sombra alrededor del borde de un
+    elemento, se debe especificar los valores de desplazamiento horizontal,
+    vertical, radio de desenfoque, radio de propagación y color*/
+    box-shadow: -5px -10px 5px 15px rgb(236, 10, 10);
+    /* esto va hacer que no se incremente el tamaño, border box se utiliza para que rellenos,
+    margenes y bordes no agreguen espacio extra a lo que se declaro en el ancho, y alto
+    de nuestro contenedor */
+    box-sizing: border-box;
+
+}
+.introduccion{
+    color: black (10, 20, 50);
+    background-color: beige;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 3px groove palevioletred;
+    box-shadow: 5px 5px 10px 5px rgb(175, 0, 146);
+    box-sizing: border-box;
+}
+.introduccion p{
+    border: 2px sandybrown;
+    width: 500px;
+    height: 100px;
+}
+
+.introduccion span{
+    border: 2px double red;
+    height: 50px;
+    width: 100px
+}
+.texto_fuente{
+    background-color: black;
+    color: white;
+    border: 10px outset black;
+    padding: 10px;
+    margin: 15px;
+}
+
+.propiedades_texto{
+    border: 10px solid lime;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.propiedades_texto h2{
+    color: aquamarine;
+    text-align: center;
+    border: 2px double silver;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 5px 2px 5px silver;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: 'BBH Sans Bartle'
+}
+
+.propiedades_texto p{
+    text-align: justify;
+    line-height: 1.2;
+    font-family: 'Smooch Sans'
+}
+
+.propiedades_fuentes{
+    border: 10px solid blue;
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.propiedades_fuentes h2{
+    color: plum;
+    text-align: center;
+    border: 2px double silver;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: 5px 5px 5px silver;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+}
+
+.propiedades_fuentes p{
+    text-align: justify;
+    line-height: 1.2;
+}
